@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Kannada', serif;
+}
+
+
+.fontColor{
+    color: gray;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.backgroungG{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+
+.custom-flex-grow {
+    flex-grow: 0 !important;
+  }
+  .fontFamily {
+    font-family: 'Tiro Kannada', serif;
+    font-weight: bold;
+  }
+  .colorWhite{
+      color: white;
+  }
+  .height{
+      height: 3.2rem;
+  }
+
+  .roundPart{
+      width: 100%;
+      background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 140%); 
+      background-size: cover;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      padding-bottom: 2.4rem;
+  }
+
+.fa-check-square{
+    color: goldenrod;
+    font-size: 1.4rem;
+  }
+
+.fa-arrow-circle-up{
+    color: blueviolet;
+    font-size: 2.6rem;
+}
+
+.fa-share-alt-square{
+    color: goldenrod;
+    font-size: 2.6rem;
+}
+
+.fa-gratipay{
+    color: red;
+    font-size: 2.6rem;
+}
+
+.fa-clock-o{
+    color: skyblue;
+    font-size: 2.6rem;
+}
+
+
+
+
+
+/* design style */
+.bagImage{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 120%); 
+    height: 500px;
+     margin-bottom: 2rem;
+     background-size: cover;  
+}
+
+.containItem{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.user{
+    position: absolute;
+    display: flex;   
+}
+
+
+
+.user1{
+    top: 15%;
+    left: 5%;
+}
+
+.user2{
+    top: 10%;
+    right: 6%;   
+}
+
+.user3{
+    bottom: 15%;
+    left: 6%;   
+}
+
+
+.user4{
+    bottom: 10%;
+    left: 50%;   
+}
+
+.user5{
+    bottom: 8%;
+    right: 6%;   
+}
+
+
+.contain-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 40%;
+}
+
+
+.userAbout{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    margin-left: -20px;
+    padding: .6rem 0;
+}
+/* .user1{
+    position: relative;
+} */
+
+
+
+/* main css work */
+.UserImg{
+    border-radius: 50%;
+}
+
+.userInfo{
+    background: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    margin-left: -20px;
+}
+
+.userInfo1{
+    background: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    margin-left: -320px;
+}
+
+@media (max-width: 768px){
+    .user, .containItem{
+        position: static;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .bagImage {
+        height: auto;
+    } 
+
+    
+
+    .user1{
+        position: static;
+        width:  90%;
+        margin-top: 3rem;
+        display:flex;
+        justify-content: center;
+    }
+    .contain-center{
+        position: static;
+        transform: none;
+        margin: 1rem auto;
+    }
+
+    .containItem{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .userInfo1{
+        text-align: right;
+
+    }
+
+    .widthBtn{
+        width: 100%;
+        margin-top: .5rem;
+    }
+
+    .buttonBest{
+        margin-bottom: .5rem;
+        min-width: 40%;
+        margin-left: 1rem;
+        
+    }
+    
+}
+
+@media (max-width: 600px){
+    .buttonBest{
+        margin-bottom: .5rem;
+        margin-left: 0%;
+        min-width: 100%;
+        
+    }
+
+    .contain-center{
+        display: block;
+        width: 100%;
+    }
+
+    .roundPart{
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        padding-bottom: 2.4rem;
+    }
+
+    .userInfo1{
+        width: 100%;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .marginClass{
+        margin: 0 !important;
+    } 
+    
+}
+
+
+
+.marginLeft{
+    margin-left: 32px;
+}
+
+.marginRight{
+    margin-left: -32px;
+}

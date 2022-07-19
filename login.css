@@ -1,0 +1,77 @@
+* > *{
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 140%); 
+}
+  
+  h2{
+      text-align: center;
+  }
+  
+  .container{
+      background: white;
+      height: auto;
+      width: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 1.4rem;
+  }
+  
+  .common{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid black;
+      margin-bottom: 34px;
+      outline: none;
+  }
+  
+  .btn{
+      width: 100%;
+      height: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  
+  .submit{
+      background: blue;
+      font-stretch: expanded;
+  }
+  
+  .reset{
+      background: red;
+  }
+
+  .centerItem{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .paddingLeft{
+    margin-left: .4rem;
+    color: blue;
+    text-decoration: none;
+}
+  
+  @media(max-width:475px){
+      .container{
+          width: 97%;
+          
+      }
+  
+  }
+  
+  
+  
+  
+  
+  
